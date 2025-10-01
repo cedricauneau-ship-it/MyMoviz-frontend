@@ -20,8 +20,6 @@ function Home() {
   };
 
   useEffect(() => {
-    console.log("=<<<");
-    
     fetch('https://my-moviz-backend-sepia.vercel.app/movies')
     .then(res => res.json())
     .then(data => {
