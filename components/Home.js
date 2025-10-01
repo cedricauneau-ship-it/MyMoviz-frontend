@@ -20,7 +20,7 @@ function Home() {
   };
 
   useEffect(() => {
-    fetch('https://my-moviz-backend-sepia.vercel.app/movies')
+    fetch('https://my-moviz-backend-wine.vercel.app/movies')
     .then(res => res.json())
     .then(data => {
       const formateData = data.movies.map(movie => {
